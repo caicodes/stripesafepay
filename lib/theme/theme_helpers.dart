@@ -12,9 +12,12 @@ Widget addHorizontalSpace(double width) {
   );
 }
 
-// Widget appLogo({required double width}) {
-//   return Image(
-//     image: const AssetImage("assets/images/logo.png"),
-//     width: width,
-//   );
-// }
+Widget appCardTile() {
+  return const Card(
+    child: ListTile(
+      title: Text('List Tile in Card'),
+      subtitle: Text('Tile Subtitle'),
+      trailing: Text('trailing'),
+    ),
+  );
+}

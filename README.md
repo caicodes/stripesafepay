@@ -1,6 +1,6 @@
-<img src="assets/project/logo-on-dark-lg.png" />
+<img src="assets/project/banner.png" />
 
-# Stripe Safe Pay 
+# Stripe SafePay 
 
 Secure payments with stripe for your business on iOS, Android, and Web.
 

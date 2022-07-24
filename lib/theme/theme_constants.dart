@@ -1,12 +1,59 @@
-// import 'package:flutter/material.dart';
-// import 'package:google_fonts/google_fonts.dart';
-
-// const colorPrimary = Color(0xff029BFA);
-// const colorPrimaryLight = Color(0xFF80D7F7);
-// const colorAccent = Color(0xFFFFECD1);
-// const colorBackground = Color(0xFF011936);
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // // Note: Get a Material Color Picker
+
+// themeBrand defaults
+const appBrandName = 'Stripe SafePay';
+const appBrandSlogan = 'accept dollas';
+
+// seed colors
+const themeColorPrimaryLight = Color(0xFFD2E7FF);
+const Color themeColorPrimary = Color(0xFF3D9AFE);
+const themeColorPrimaryBg = Color(0xFF1A3FD8);
+const themeColorPrimaryDark = Color(0xFF1A3182);
+const themeColorPrimaryDarkBg = Color(0xFF112360);
+const themeColorPrimaryAccent = Color(0xFF31F29D);
+
+// standarized / branded
+
+// derived colors
+const themeColorAppBarText = themeColorPrimary;
+const themeColorAppBarIcon = themeColorPrimaryAccent;
+const themeColorAppBarBg = themeColorPrimaryBg;
+const themeColorAppScaffoldBg = themeColorPrimaryDark;
+const themeColorBottomNavBarBg = themeColorPrimaryBg;
+const themeColorDrawerBg = themeColorPrimaryDarkBg;
+
+// branded, necessary?
+const themeColorAppLogoStripe = themeColorPrimary;
+const themeColorAppLogoSafePay = themeColorPrimaryAccent;
+
+// light theme / default
+ThemeData lightTheme = ThemeData(
+  brightness: Brightness.dark,
+  textTheme: GoogleFonts.robotoTextTheme()
+      .apply(bodyColor: Colors.white, displayColor: Colors.white),
+  appBarTheme: const AppBarTheme(
+      color: themeColorAppBarBg,
+      iconTheme: IconThemeData(color: themeColorPrimaryAccent)),
+  scaffoldBackgroundColor: themeColorAppScaffoldBg,
+  drawerTheme: const DrawerThemeData(backgroundColor: themeColorDrawerBg),
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+    backgroundColor: Colors.transparent, // themeColorBottomNavBarBg,
+    elevation: 2,
+    unselectedItemColor: themeColorPrimaryLight,
+    selectedItemColor: themeColorPrimary,
+  ),
+  cardColor: themeColorPrimary,
+  floatingActionButtonTheme: const FloatingActionButtonThemeData(
+    backgroundColor: themeColorPrimaryAccent,
+    // foregroundColor: themeColorPrimaryDarkBg,
+  ),
+);
+
+
+
 
 // ThemeData lightTheme = ThemeData(
 //   textTheme: GoogleFonts.montserratTextTheme()

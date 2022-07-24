@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069745556431",
+    "project_id": "stripesafepay",
+    "storage_bucket": "stripesafepay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069745556431:android:2149d128daf7592e2fe0ba",
+        "android_client_info": {
+          "package_name": "com.artasce.stripesafepay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069745556431-om2v5ocsmg2gvg4fqsv3s2175l7vc2hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuYa-BI-Cd0lOBfG3xJR1o5Ptc5pJ6Ykg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069745556431-om2v5ocsmg2gvg4fqsv3s2175l7vc2hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
